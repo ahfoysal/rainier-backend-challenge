@@ -2,7 +2,7 @@
 
 #### Get Started:
 
-- [POSTMAN API Documentation](https://documenter.getpostman.com/view/21489763/2s9YkobfY3)
+- [POSTMAN API Documentation](s://documenter.getpostman.com/view/21489763/2s9YkobfY3)
 
 ## Endpoints
 
@@ -14,13 +14,13 @@
 
 #### Create User
 
-```http
+```
   POST /api/v1/users
 ```
 
 #### Create Course
 
-```http
+```
   POST /api/v1/courses
 ```
 
@@ -30,13 +30,13 @@
 
 #### Get List of all Courses
 
-```http
+```
   GET /api/v1/courses
 ```
 
 #### Get a Specific Course by ID
 
-```http
+```
   GET /api/v1/courses/{id}
 ```
 
@@ -46,7 +46,7 @@
 
 #### Update an existing course
 
-```http
+```
   PATCH /api/v1/courses/{id}
 ```
 
@@ -60,7 +60,7 @@
 
 #### Delete Course
 
-```http
+```
   DELETE /api/v1/courses/{id}
 ```
 
