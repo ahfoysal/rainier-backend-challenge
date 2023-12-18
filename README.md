@@ -2,7 +2,7 @@
 
 #### Get Started:
 
-- [POSTMAN API Documentation](s://documenter.getpostman.com/view/21489763/2s9YkobfY3)
+- [POSTMAN API Documentation](https://documenter.getpostman.com/view/21489763/2s9YkobfY3)
 
 ## Endpoints
 
