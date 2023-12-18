@@ -12,13 +12,15 @@
   POST /api/v1/auth/login
 ```
 
+- [Login Body Example](#login-body-example)
+
 #### Create User
 
 ```
   POST /api/v1/users
 ```
 
-- [Example User Body](#example-user-body)
+- [User Body Example](#user-body-example)
 
 #### Create Course
 
@@ -29,6 +31,8 @@
 | Authorization  | Type     | Description                                                        |
 | :------------- | :------- | :----------------------------------------------------------------- |
 | `access-token` | `string` | **Required**.You will find the access token in the login response. |
+
+- [Course Body Example](#course-body-example)
 
 #### Get List of all Courses
 
@@ -74,7 +78,7 @@
 | :------------- | :------- | :----------------------------------------------------------------- |
 | `access-token` | `string` | **Required**.You will find the access token in the login response. |
 
-### Example User Body
+### User Body Example
 
 ```
 {
@@ -84,7 +88,7 @@
 }
 ```
 
-### Example Login Body
+### Login Body Example
 
 ```
 {
@@ -93,7 +97,7 @@
 }
 ```
 
-### Example Course Body
+### Course Body Example
 
 ```
 {
