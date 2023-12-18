@@ -8,7 +8,7 @@
 
 #### Login
 
-```http
+```
   POST /api/v1/auth/login
 ```
 
