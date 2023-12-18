@@ -24,6 +24,10 @@
   POST /api/v1/courses
 ```
 
+| Authorization  | Type     | Description                |
+| :------------- | :------- | :------------------------- |
+| `access token` | `string` | **Required**. Access Token |
+
 #### Get List of all Courses
 
 ```http
@@ -50,6 +54,10 @@
 | :-------- | :------- | :----------------------------------- |
 | `id`      | `string` | **Required**. Id of course to update |
 
+| Authorization  | Type     | Description                |
+| :------------- | :------- | :------------------------- |
+| `access token` | `string` | **Required**. Access Token |
+
 #### Delete Course
 
 ```http
@@ -59,3 +67,7 @@
 | Parameter | Type     | Description                          |
 | :-------- | :------- | :----------------------------------- |
 | `id`      | `string` | **Required**. Id of course to delete |
+
+| Authorization  | Type     | Description                |
+| :------------- | :------- | :------------------------- |
+| `access token` | `string` | **Required**. Access Token |
