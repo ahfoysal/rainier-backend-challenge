@@ -2,6 +2,7 @@
 
 #### Get Started:
 
+- [Live Backend Link](https://rainier-server-code.vercel.app)
 - [POSTMAN API Documentation](https://documenter.getpostman.com/view/21489763/2s9YkobfY3)
 
 ## Endpoints
