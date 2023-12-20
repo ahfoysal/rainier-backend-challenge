@@ -14,6 +14,11 @@
 
 - [Login Body Example](#login-body-example)
 
+##### Demo Admin Email and Password
+
+- admin@gmail.com
+- 123456
+
 #### Create User
 
 ```
