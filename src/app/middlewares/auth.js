@@ -17,7 +17,6 @@ const auth =
 
       try {
         verifiedUser = jwtHelpers.verifyToken(token, config.jwt.refresh)
-        console.log(verifiedUser)
       } catch (error) {
         console.error('JWT verification failed:', error.message)
         throw new ApiError(httpStatus.UNAUTHORIZED, 'Unauthorized Request')
